@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 abrirAutenticacao();
             }
-        }, 3000);
+        }, 2000);
     }
     private void abrirAutenticacao(){
         Intent abrirTelaLogin = new Intent(MainActivity.this, AutenticacaoActivity.class);
